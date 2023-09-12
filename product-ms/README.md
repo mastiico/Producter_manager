@@ -1,21 +1,14 @@
-# Product - ms
+# Product Management System (Product-MS)
 
-## ENDpoints
-- BaseURL: /products
-- POST: create()
-- GET: getAll()
-- GET /{id}: getById()
-- PUT /{id}: update()
-- DELETE /{id} inactive()
+## Modelo de Produto
 
-## MODEL
 ```json
 {
-    "id":1,
+    "id": 1,
     "name": "Iphone 13 Pro Max",
-    "description": "Celular de ultima geração.",
+    "description": "Celular de última geração.",
     "price": 6999.90,
-    "isAvaliable": true
+    "isAvailable": true
 }
 ```
 
